@@ -1,0 +1,15 @@
+.firstpageimg{
+    width: 100%;
+}
+.messages h2{
+    text-align: center;
+}
+.messages p{
+    background-color: aliceblue;
+    font-size: initial;;
+}
+
+.support img{
+    height: 150px;
+    padding: 12px;
+}

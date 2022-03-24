@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ministry of Youth & Sports</title>
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="reg.css">
+</head>
+<body>
+    <header>
+        <h5>भारत सरकार || GOVERNMENT OF INDIA
+            <span class="links">
+                <a href="https://www.facebook.com/DepartmentofSportsMYAS/?fref=ts" target="_blank"><img src="facebook.webp"
+                        alt="Loading"></a>
+                <a href="https://twitter.com/IndiaSports" target="_blank"><img src="twitter.png"
+                        alt="Loading"></a>
+                <a href="https://www.youtube.com/channel/UCOfPULmT8oFbukSXRxvFhew" target="_blank"><img src="youtube.png"
+                        alt="Loading"></a>
+                <span><a href="tel:xxxxxx2003"> Call:xxxxxx2003</a></span>
+            </span>
+        </h5>
+        <img src="DoS.jpg" alt="Loading" id="headimg">
+        <nav class="navbar">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="registration.html">Click here for registration</a>
+                </li>
+            </ul>
+            <div id="search">
+                <input type="text" name="search" placeholder="Search here">
+            </div>
+        </nav>
+    </header>
+    <div class="application">
+        <h2>Khelo India Player Registration</h2>
+        <form action="backend.py">
+            <div>
+                <label for="1">Please Upload Your Passport Size image:</label>
+                <input type="file" name="myimage" id="1">
+            </div>
+            <div>
+                <label for="2">First Name:</label>
+                <input type="text" name="myfirstName" id="2">
+            </div>
+            <div>
+                <label for="3">Middle Name:</label>
+                <input type="text" name="mymiddleName" id="3">
+            </div>
+            <div>
+                <label for="4">Last Name:</label>
+                <input type="text" name="mylastName" id="4">
+            </div>
+            <div>
+                Category:<label for="5">U-17</label>
+                <input type="radio" name="mycat" id="5">
+                <label for="6">U-21</label>
+                <input type="radio" name="mycat" id="6">
+            </div>
+            <div>
+                Gender:<label for="7">Male</label>
+                <input type="radio" name="mygen" id="7">
+                <label for="8">Female</label>
+                <input type="radio" name="mygen" id="8">
+            </div>
+            <div>
+                <label for="9">Date of Birth:</label>
+                <input type="date" name="mydob" id="9">
+            </div>
+            <div>
+                <label for="10">Contact No.</label>
+                <input type="number" name="myphn" id="10">
+            </div>
+            <div>
+                <label for="11">e-mail Id:</label>
+                <input type="email" name="myemail" id="11">
+            </div>
+            <div>
+                <label for="12">Aadhar Card:</label>
+                <input type="file" name="aadhar" id="12">
+            </div>
+            <div>
+                <label for="13">Birthdate proof(Birth Certificate, 10th class certificate, School bona-fide certificate):</label>
+                <input type="file" name="birthc" id="13">
+            </div>
+            <div>
+                <label for="14">Bank Details with passbook:</label>
+                <input type="file" name="passbook" id="14">
+            </div>
+            <div>
+                <label for="15">Category Certificate(Except GEN):</label>
+                <input type="file" name="cc" id="15">
+            </div>
+            <div>
+                <input type="submit" value="Book Now">
+                <input type="reset" value="Reset Now">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
