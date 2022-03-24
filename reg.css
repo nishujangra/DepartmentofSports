@@ -1,0 +1,12 @@
+.application{
+    font-size: large;
+    text-align: center;
+    background-color: azure;
+    border-radius: 220px;
+}
+.application h2{
+    text-align: center;
+}
+.application div{
+    padding: 8px 0px;
+}
